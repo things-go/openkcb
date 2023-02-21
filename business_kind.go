@@ -13,4 +13,9 @@ const (
 	MemberType_PURCHASER = 1 // 买家
 	MemberType_SELLER    = 2 // 卖家
 
+	// 银行卡类型
+	BankCardType_DEBIT_CARD      = "1" // 借记卡
+	BankCardType_LOAD_CARD       = "2" // 贷记卡
+	BankCardType_QUASI_LOAD_CARD = "3" // 准贷记卡
+	BankCardType_CASH_CARD       = "4" // 储蓄卡
 )

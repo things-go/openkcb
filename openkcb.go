@@ -107,15 +107,15 @@ func NewClient(config Config) *Client {
 	}
 
 	// 临时测试用，待删除
-	client.kcbPriv, err = util.ParseRSAPrivateKey(client.config.KcbPrivateKey)
-	if err != nil {
-		log.Fatal(err)
-	}
-	// 临时测试用，待删除
-	client.pub, err = util.ParseRSAPublicKey(client.config.PublicKey)
-	if err != nil {
-		log.Fatal(err)
-	}
+	// client.kcbPriv, err = util.ParseRSAPrivateKey(client.config.KcbPrivateKey)
+	// if err != nil {
+	// 	log.Fatal(err)
+	// }
+	// // 临时测试用，待删除
+	// client.pub, err = util.ParseRSAPublicKey(client.config.PublicKey)
+	// if err != nil {
+	// 	log.Fatal(err)
+	// }
 
 	return client
 }
